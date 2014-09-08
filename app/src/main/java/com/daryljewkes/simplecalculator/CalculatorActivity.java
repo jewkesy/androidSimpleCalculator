@@ -2,6 +2,7 @@ package com.daryljewkes.simplecalculator;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Menu;
@@ -55,6 +56,8 @@ public class CalculatorActivity extends Activity implements View.OnClickListener
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
+            Intent video = new Intent(this, VideoActivity.class);
+            startActivity(video);
             return true;
         }
         return super.onOptionsItemSelected(item);

@@ -3,6 +3,7 @@
 
     <string name="app_name">Simple Calculator</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Video</string>
+    <string name="title_activity_video">VideoActivity</string>
 
 </resources>
